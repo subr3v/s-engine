@@ -19,3 +19,6 @@
 [submodule "lua"]
 	path = Externals/lua
 	url = https://github.com/lua/lua.git
+[submodule "Working_Directory/Paks"]
+	path = Working_Directory/Paks
+	url = https://github.com/subr3v/s-engine-data.git

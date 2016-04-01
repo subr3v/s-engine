@@ -21,10 +21,10 @@ SceneName = "Sponza"
 
 ResourcePacks =
 {
-	"Sponza.pak",
-	"SponzaModels.pak",
-	"Conference.pak",
-	"Sibenik.pak"
+	"Paks\\Sponza.pak",
+	"Paks\\SponzaModels.pak",
+	"Paks\\Conference.pak",
+	"Paks\\Sibenik.pak"
 }
 
 Models = 
