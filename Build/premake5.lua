@@ -104,21 +104,7 @@ project "3D_Demo"
 	dependsOn { "Engine_Core" , "Engine_Graphics", "Engine_Serialization", "Engine_Networking" , "Engine_Rendering", "Engine_ImGui", "Engine_Framework", "Engine_LuaModule" }
 	dependsOn { "SEngine" }
 	links { "External_imgui" }
-	
-project "FFTA_Demake"
-	kind "WindowedApp"
-	addModuleFiles("FFTA_Demake")
-	dependsOn { "Engine_Core" , "Engine_Graphics", "Engine_Serialization", "Engine_Networking" , "Engine_Rendering", "Engine_ImGui", "Engine_Framework", "Engine_LuaModule" }
-	dependsOn { "SEngine" }
-	links { "External_imgui" }
 
-project "ProceduralGenerationApp"
-	kind "WindowedApp"
-	addModuleFiles("ProceduralGenerationApp")
-	dependsOn { "Engine_Core" , "Engine_Graphics", "Engine_Serialization", "Engine_Networking" , "Engine_Rendering", "Engine_ImGui", "Engine_Framework", "Engine_LuaModule" }
-	dependsOn { "SEngine" }
-	links { "External_imgui" }
-	
 project "Asset_Texture_Loader"
 	kind "SharedLib"
 	addModuleFiles("Asset_Texture_Loader")
