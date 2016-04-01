@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+	<Type Name="TVector&lt;*&gt;">
+		<DisplayString>{{ size={End - Begin} }}</DisplayString>
+		<Expand>
+			<Item Name="[size]" ExcludeView="simple">End - Begin</Item>
+			<Item Name="[capacity]" ExcludeView="simple">Capacity - Begin</Item>
+			<ArrayItems>
+				<Size>End - Begin</Size>
+				<ValuePointer>Begin</ValuePointer>
+			</ArrayItems>
+		</Expand>
+	</Type>
+</AutoVisualizer>
