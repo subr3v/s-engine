@@ -63,4 +63,12 @@ In order to compile the engine you need to:
 * Build the project from visual studio!
 
 # Clone Instructions
-Please bear in mind that the repo makes use of both git LFS and git submodules, in order to clone the entire repo you will need to type int '''git clone --recursive (path to the repo)''', or alternatively type in '''git submodule update --init --recursive''' after cloning the project to pull all the submodules.
+Please bear in mind that the repo makes use of both git LFS and git submodules, in order to clone the entire repo you will need to type in 
+```
+git clone --recursive (path to the repo)
+``` 
+or alternatively type in
+```
+git submodule update --init --recursive
+```
+after cloning the project to pull all the submodules.
