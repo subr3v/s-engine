@@ -1,4 +1,4 @@
-# S-Engine
+## S-Engine
 Official repository for S-Engine.
 
 Engine programming is my passion, and in order to study and increase my skills in this field I decided to write my own 3D engine from scratch.
@@ -54,3 +54,13 @@ Here's an in-depth list of all the features of the engine:
   * Extensible with further dynamic modules loaded at runtime
   * Creates Package files to be loaded from the engine
   * Built-in converters for .fbx and .obj models and most common image formats for textures
+ 
+# Build Instructions
+The project uses premake to generate build projects for your target platform (Visual Studio 2012 to 2015), the project has only been tested with Visual Studio 2013 so don't hesitate to contact me if you run into troubles.
+In order to compile the engine you need to:
+* Go to the Build folder and double click on make_vs_20xx.bat (depending on which version of visual studio you have installed in your machine).
+* Go to the generated folder ProjectFiles and open the file Engine_Solution.sln
+* Build the project from visual studio!
+
+# Clone Instructions
+Please bear in mind that the repo makes use of both git LFS and git submodules, in order to clone the entire repo you will need to type int '''git clone --recursive (path to the repo)''', or alternatively type in '''git submodule update --init --recursive''' after cloning the project to pull all the submodules.
